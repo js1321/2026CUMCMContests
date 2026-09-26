@@ -1,0 +1,262 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage[UTF8]{ctex}
+\begin{document}
+\section*{C题微网调控论文全文LaTeX公式源码}
+\subsection*{一、独立公式}
+\paragraph{公式 1}
+\[
+l_t=P^L_t\Delta t,\qquad g_t=P^G_t\Delta t.
+\]
+\paragraph{公式 2}
+\[
+x_t+g_t+r_t=l_t+c_t+w_t,\qquad t=1,\ldots,144.
+\]
+\paragraph{公式 3}
+\[
+S_t=S_{t-1}+\eta_c c_t-\frac{r_t}{\eta_d},\qquad \eta_c=\eta_d=0.90.
+\]
+\paragraph{公式 4}
+\[
+1200\le S_t\le10800,
+\]
+\paragraph{公式 5}
+\[
+0\le c_t\le \frac{5000}{6},\qquad 0\le r_t\le\frac{5000}{6}.
+\]
+\paragraph{公式 6}
+\[
+S_0=S_{144}=6000.
+\]
+\paragraph{公式 7}
+\[
+\min C_1=\sum_{t=1}^{144}p_t x_t.
+\]
+\paragraph{公式 8}
+\[
+H_d=\{d-7,d-6,\ldots,d-1\}.
+\]
+\paragraph{公式 9}
+\[
+\hat l_{d,t}=\frac{1}{7}\sum_{s\in H_d}l_{s,t},\qquad
+\hat g_{d,t}=\frac{1}{7}\sum_{s\in H_d}g_{s,t}.
+\]
+\paragraph{公式 10}
+\[
+x_{d,t}+\hat g_{d,t}+r_{d,t}=\hat l_{d,t}+c_{d,t}+\hat u_{d,t}.
+\]
+\paragraph{公式 11}
+\[
+x_{d,t}+g_{s,t}+r_{d,t}+e_{d,s,t}
+=l_{s,t}+c_{d,t}+u_{d,s,t}.
+\]
+\paragraph{公式 12}
+\[
+e^{\mathrm{act}}_{d,t}
+=\left[l^{\mathrm{act}}_{d,t}+c_{d,t}-x_{d,t}-g^{\mathrm{act}}_{d,t}-r_{d,t}\right]_+,
+\]
+\paragraph{公式 13}
+\[
+\min C_2=
+\sum_{t=1}^{144}p_t x_{d,t}
++5\sum_{s\in H_d}\pi_s\sum_{t=1}^{144}p_t e_{d,s,t},
+\qquad \pi_s=\frac17.
+\]
+\paragraph{公式 14}
+\[
+S_{d,t}=S_{d,t-1}+0.9c_{d,t}-\frac{r_{d,t}}{0.9},
+\]
+\paragraph{公式 15}
+\[
+S_{d+1,0}=S_{d,144}
+\]
+\paragraph{公式 16}
+\[
+\min\sum_{i=1}^{144}\pi_i x_i,
+\]
+\paragraph{公式 17}
+\[
+x_i+f_i+d_i-c_i-w_i=l_i,
+\]
+\paragraph{公式 18}
+\[
+S_i=S_{i-1}+\eta c_i-\frac{d_i}{\eta},
+\]
+\paragraph{公式 19}
+\[
+S_{144}=S_0=6000,
+\]
+\paragraph{公式 20}
+\[
+1200\le S_i\le10800,\qquad 0\le c_i,d_i\le\frac{5000}{6},
+\]
+\paragraph{公式 21}
+\[
+x_i\ge0,\qquad w_i\ge0.
+\]
+\paragraph{公式 22}
+\[
+\Phi(y_i;x_i)=\pi_i\min(x_i,y_i)
++0.5\pi_i(x_i-y_i)^+
++1.5\pi_i(y_i-x_i)^+.
+\]
+\paragraph{公式 23}
+\[
+u_i\ge y_i-x_i,\qquad v_i\ge x_i-y_i,\qquad u_i,v_i\ge0,
+\]
+\paragraph{公式 24}
+\[
+\min\sum_{i\in I(\tau)}\pi_i\left(y_i+0.5u_i+0.5v_i\right),
+\]
+\paragraph{公式 25}
+\[
+e_i=\max\left(0,l_i+c'_i-y_i-g_i-d'_i\right).
+\]
+\paragraph{公式 26}
+\[
+\min\left\{
+\sum_{t=1}^{144}p_{d,t}x_{d,t}
++\frac57\sum_{s\in H_d}\sum_{t=1}^{144}p_{d,t}e_{d,s,t}
+\right\}.
+\]
+\paragraph{公式 27}
+\[
+u_{d,t}=[y_{d,t}-x_{d,t}]_+,\qquad
+v_{d,t}=[x_{d,t}-y_{d,t}]_+.
+\]
+\paragraph{公式 28}
+\[
+\Phi_{d,t}(y;x)=p_{d,t}\left[\min(x,y)+1.5(y-x)^++0.5(x-y)^+\right].
+\]
+\paragraph{公式 29}
+\[
+p_L < \eta_c\eta_d p_H.
+\]
+\paragraph{公式 30}
+\[
+\frac{p_H}{p_L}>\frac{1}{\eta_c\eta_d}.
+\]
+\subsection*{二、行内数学表达式}
+\paragraph{行内式 1}
+\(\Delta t=1/6\)
+\paragraph{行内式 2}
+\(t\)
+\paragraph{行内式 3}
+\(P^L_t\)
+\paragraph{行内式 4}
+\(P^G_t\)
+\paragraph{行内式 5}
+\(c_t\)
+\paragraph{行内式 6}
+\(0.9c_t\)
+\paragraph{行内式 7}
+\(r_t\)
+\paragraph{行内式 8}
+\(r_t/0.9\)
+\paragraph{行内式 9}
+\(5000/6\)
+\paragraph{行内式 10}
+\(x_t\)
+\paragraph{行内式 11}
+\(w_t\)
+\paragraph{行内式 12}
+\(S_t\)
+\paragraph{行内式 13}
+\(w_t=0\)
+\paragraph{行内式 14}
+\(p_t\)
+\paragraph{行内式 15}
+\(l_t\)
+\paragraph{行内式 16}
+\(g_t\)
+\paragraph{行内式 17}
+\(1/6\)
+\paragraph{行内式 18}
+\(S_0=S_{144}=6000\)
+\paragraph{行内式 19}
+\(1/0.81\approx1.235\)
+\paragraph{行内式 20}
+\(d\)
+\paragraph{行内式 21}
+\(x_{d,t}\)
+\paragraph{行内式 22}
+\(c_{d,t}\)
+\paragraph{行内式 23}
+\(r_{d,t}\)
+\paragraph{行内式 24}
+\(e_{d,s,t}\)
+\paragraph{行内式 25}
+\(u_{d,s,t}\)
+\paragraph{行内式 26}
+\(s\)
+\paragraph{行内式 27}
+\([z]_+=\max(z,0)\)
+\paragraph{行内式 28}
+\(5p_t e^{\mathrm{act}}_{d,t}\)
+\paragraph{行内式 29}
+\(x_i\)
+\paragraph{行内式 30}
+\(y_i\)
+\paragraph{行内式 31}
+\(y_i>x_i\)
+\paragraph{行内式 32}
+\(y_i<x_i\)
+\paragraph{行内式 33}
+\(f_i\)
+\paragraph{行内式 34}
+\(i\)
+\paragraph{行内式 35}
+\(y_i=x_i\)
+\paragraph{行内式 36}
+\(u_i,v_i\)
+\paragraph{行内式 37}
+\(I(\tau)\)
+\paragraph{行内式 38}
+\(c'_i,d'_i\)
+\paragraph{行内式 39}
+\(e_i\)
+\paragraph{行内式 40}
+\(p_{d,t}\)
+\paragraph{行内式 41}
+\(5/7\)
+\paragraph{行内式 42}
+\(2.3\times10^{-13}\)
+\paragraph{行内式 43}
+\(9.1\times10^{-13}\)
+\paragraph{行内式 44}
+\(5p_t\)
+\paragraph{行内式 45}
+\(S_{d+1,0}=S_{d,144}\)
+\paragraph{行内式 46}
+\(y=x\)
+\paragraph{行内式 47}
+\(\eta_c\)
+\paragraph{行内式 48}
+\(\eta_c\eta_d\)
+\paragraph{行内式 49}
+\(p_L\)
+\paragraph{行内式 50}
+\(p_H\)
+\paragraph{行内式 51}
+\(\eta_c=\eta_d=0.90\)
+\paragraph{行内式 52}
+\(t=1,\ldots,144\)
+\paragraph{行内式 53}
+\(y\)
+\paragraph{行内式 54}
+\(x\)
+\paragraph{行内式 55}
+\(y_{d,t}\)
+\paragraph{行内式 56}
+\(e^{\mathrm{act}}_{d,t}\)
+\paragraph{行内式 57}
+\(\Delta t=1/6\,\mathrm{h}\)
+\paragraph{行内式 58}
+\(S_{d,t}\)
+\paragraph{行内式 59}
+\(t+1\)
+\paragraph{行内式 60}
+\((y-x)^+\)
+\paragraph{行内式 61}
+\((x-y)^+\)
+\end{document}
