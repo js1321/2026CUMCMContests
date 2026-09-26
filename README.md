@@ -1,4 +1,4 @@
-2026-MCM-Contest README.md
+2026-CUMCM-Contest README.md
 2026 全国大学生数学建模竞赛 · C题
 面向分时电价的微网储能优化调度模型研究
 Team Members：沈嘉朔、孙阮奕洋、唐骁扬
@@ -18,7 +18,7 @@ Model & Methodology / 模型与方法
   - Charge-discharge efficiency loss constraints
   - Microgrid power supply-demand balance constraints
 File Structure / 仓库文件结构
-2026-MCM-Contest/
+2026-CUMCM-Contest/
 ├── README.md                                   # 项目说明文档
 ├── C题.pdf                                      # 竞赛原题
 ├── 面向分时电价的微网储能优化调度模型研究.pdf    # 最终完整版建模论文
