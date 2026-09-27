@@ -7,8 +7,10 @@ Team Members：沈嘉朔、孙阮奕洋、唐骁扬
 Competition：2026 China Undergraduate Mathematical Contest in Modeling
 
 Project Overview / 项目简介
+
 This project focuses on the optimal scheduling of microgrid energy storage under time-of-use electricity prices. Based on actual power load, photovoltaic output and time-sharing tariff data, we established a linear programming optimization model aiming at minimizing the daily operating cost of the microgrid.
 Considering energy storage SOC constraints, charge-discharge efficiency, power limit and power balance constraints, we completed quantitative calculation, multi-scenario analysis and sensitivity analysis for all four sub-problems of Question C.
+
 本项目围绕分时电价下微网储能优化调度问题展开建模研究。以微电网单日运行总成本最小为优化目标，结合光伏出力、用电负荷、分时电价等真实约束条件，建立线性规划优化模型，完成C题全部四小问的求解、场景对比与参数敏感性分析，输出最优储能充放电调度策略。
 
 Model & Methodology / 模型与方法
