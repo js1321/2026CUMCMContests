@@ -46,12 +46,17 @@ File Structure / 仓库文件结构
         └── result1~result4-3.xlsx              # 各问完整输出结果表
 
 Running Environment & Usage / 运行说明
+
 Environment Requirements
+
 pip install pandas numpy pulp openpyxl matplotlib
+
 How to Run
+
 1. Open 支撑材料/附件/源程序代码1，2，3，4题.ipynb
 2. Run the code cell by cell in order
 3. The program will automatically calculate and export Excel result files
+
 Research Content & Results / 研究内容
 - Problem 1：Establish the basic optimal scheduling model, solve the minimum daily operation cost and charge-discharge strategy.
 - Problem 2：Analyze scheduling differences under different time-of-use electricity price scenarios.
@@ -59,5 +64,7 @@ Research Content & Results / 研究内容
 - Problem 4：Expand multi-scene optimization and comprehensive evaluation of microgrid dispatch.
 
 Team Information / 团队信息
+
 Team Member：沈嘉朔、孙阮奕洋、唐骁扬
+
 Completion Time：2026 National College Students Mathematical Modeling Competition
