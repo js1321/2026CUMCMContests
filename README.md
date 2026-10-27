@@ -61,7 +61,7 @@ How to Run
 
 Certificate / 完赛证书
 
-![Certificate](https://github.com/js1321/2026CUMCMContests/blob/main/assests/DKU%EF%BC%8D%E6%88%90%E5%8A%9F%E5%8F%82%E8%B5%9B2-2.pdf)
+[Certificate](https://github.com/js1321/2026CUMCMContests/blob/main/assests/DKU%EF%BC%8D%E6%88%90%E5%8A%9F%E5%8F%82%E8%B5%9B2-2.pdf)
 
 Research Content & Results / 研究内容
 - Problem 1：Establish the basic optimal scheduling model, solve the minimum daily operation cost and charge-discharge strategy.
