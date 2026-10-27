@@ -59,6 +59,10 @@ How to Run
 2. Run the code cell by cell in order
 3. The program will automatically calculate and export Excel result files
 
+Certificate / 完赛证书
+
+![Certificate](https://github.com/js1321/2026CUMCMContests/blob/main/assests/DKU%EF%BC%8D%E6%88%90%E5%8A%9F%E5%8F%82%E8%B5%9B2-2.pdf)
+
 Research Content & Results / 研究内容
 - Problem 1：Establish the basic optimal scheduling model, solve the minimum daily operation cost and charge-discharge strategy.
 - Problem 2：Analyze scheduling differences under different time-of-use electricity price scenarios.
