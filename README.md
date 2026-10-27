@@ -71,6 +71,6 @@ Research Content & Results / 研究内容
 
 Team Information / 团队信息
 
-Team Member：沈嘉朔、孙阮奕洋、唐骁扬
+Team Member：沈嘉朔、唐骁扬、孙阮奕洋
 
 Completion Time：2026 National College Students Mathematical Modeling Competition
