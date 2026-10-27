@@ -2,7 +2,7 @@
 2026 全国大学生数学建模竞赛 · C题
 面向分时电价的微网储能优化调度模型研究
 
-Team Members：沈嘉朔、孙阮奕洋、唐骁扬
+Team Members：沈嘉朔、唐骁扬、孙阮奕洋
 
 Competition：2026 China Undergraduate Mathematical Contest in Modeling
 
